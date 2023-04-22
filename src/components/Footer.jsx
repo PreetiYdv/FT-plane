@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <footer className="container myContainer">
-        <div className="row py-5">
+        <div className="row py-5 ">
           <div className="col-12 col-lg-4">
             <a href="#">
               <img src={logo} alt="" />
@@ -60,8 +60,8 @@ function Footer() {
             </div>
           </div>
           <div className="col-12 col-lg-8 pt-5 pt-lg-0">
-            <div class="row">
-              <div class="col-6 col-md-4">
+            <div class="row justify-content-between">
+              <div class="col-6 col-md-4 col-xl-2">
                 <h2 class=" fc_white fs_lg mb-3 ff_MontserratExtraBold">
                   Address
                 </h2>
@@ -98,7 +98,7 @@ function Footer() {
                   </a>
                 </p>
               </div>
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4 col-xl-2">
                 <h2 class=" fc_white fs_lg mb-3 ff_MontserratExtraBold">
                   About
                 </h2>
@@ -143,7 +143,7 @@ function Footer() {
                   </a>
                 </p>
               </div>
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4 col-xl-3">
                 <h2 class=" fc_white fs_lg mb-3 ff_MontserratExtraBold">
                   Support
                 </h2>

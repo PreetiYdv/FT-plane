@@ -65,7 +65,6 @@ nav ul li a:hover::after {
 }
 
 .nav_btn {
-  display: none;
   font-size: 30px;
 }
 
@@ -256,6 +255,10 @@ nav ul li a:hover::after {
   background: #FFFFFF;
 }
 
+.border_right {
+  border-right: 2px dashed rgba(255, 255, 255, 0.2);
+  height: 151px;
+}
 
 /* travelers */
 .travelers_box {
@@ -265,6 +268,7 @@ nav ul li a:hover::after {
   padding-bottom: 40px;
   width: 282px;
 }
+
 .travelers_box:hover {
   box-shadow: 10px 100px 100px 20px rgba(1, 23, 54, 0.05);
 }
@@ -470,6 +474,10 @@ footer p a:hover {
   #email {
     width: 300px;
   }
+
+  .border_right {
+    display: none;
+  }
 }
 
 @media (max-width:768px) {
@@ -487,5 +495,12 @@ footer p a:hover {
 
   .Economy {
     width: 100%;
+  }
+
+  .border_right {
+    border-right: none !important;
+    height: 0 !important;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.2);
+    width: 151px;
   }
 }

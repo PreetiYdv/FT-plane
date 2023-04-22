@@ -20,10 +20,10 @@ function Tickets() {
             <img src={air_delivery} alt="earth" className="w-100 mw_315" />
           </div>
           <div className="col-lg-6">
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center flex-column flex-md-row align-items-center">
               <img src={ticket} alt="ticket" className="w-100 pe-lg-4 mw_450" />
-              <div className="d-flex flex-column justify-content-between">
-                <div>
+              <div className="d-flex flex-md-column justify-content-between align-items-center gap-3 flex-row mt-5 mt-md-0">
+                <div className="mt-md-5 pt-md-5 d-flex flex-md-column gap-1">
                   <div className="dots rounded-pill"></div>
                   <div className="dots rounded-pill"></div>
                   <div className="dots rounded-pill"></div>
@@ -31,11 +31,12 @@ function Tickets() {
                   <div className="dots rounded-pill"></div>
                   <div className="dots rounded-pill"></div>
                 </div>
-                <div>
+                <div className="border_right"></div>
+                <div className="mb-md-4 d-flex gap-3 flex-md-column">
                   <div className="slider_arrow mb-1">
                     <img src={prev_arrow} alt="prev_arrow" />
                   </div>
-                  <div className="slider_arrow mt-2">
+                  <div className="slider_arrow mt-md-2">
                     <img src={next_arrow} alt="next_arrow" />
                   </div>
                 </div>

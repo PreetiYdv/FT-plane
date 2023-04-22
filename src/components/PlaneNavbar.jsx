@@ -64,7 +64,7 @@ function PlaneNavbar() {
               </li>
             </ul>
           </div>
-          <span onClick={shownavBar} className="nav_btn z-index-50">
+          <span onClick={shownavBar} className="nav_btn d-lg-none z-index-50">
             {toggle ? (
               <GrClose className="stroke_white" />
             ) : (

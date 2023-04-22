@@ -99,7 +99,7 @@ function Feature() {
             Our Features
           </h3>
           <div className="row justify-content-center">
-            <div className="col-7 col-sm-6 col-lg-3">
+            <div className="col-8 col-sm-6 col-lg-3">
               {" "}
               <div className="feature_box mt-4">
                 <div className="d-flex flex-column align-items-center">
@@ -119,13 +119,13 @@ function Feature() {
                 </div>
               </div>
             </div>
-            <div className="col-7 col-sm-6 col-lg-3">
+            <div className="col-8 col-sm-6 col-lg-3">
               <div className="feature_box mt-4 mt-sm-0">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
                     <img src={discount} alt="discount" />
                   </div>
-                  <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2">
+                  <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2 text-center">
                     More Discount
                   </h3>
                   <p className="ff_MontserratReg fc_grey fs_sm pb-3 mb-3 text-center">
@@ -138,13 +138,13 @@ function Feature() {
                 </div>
               </div>
             </div>
-            <div className="col-7 col-sm-6 col-lg-3">
+            <div className="col-8 col-sm-6 col-lg-3">
               <div className="feature_box mt-4">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
                     <img src={lock} alt="lock" />
                   </div>
-                  <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2">
+                  <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2 text-center">
                     Private
                   </h3>
                   <p className="ff_MontserratReg fc_grey fs_sm pb-3 mb-3 text-center">
@@ -157,13 +157,13 @@ function Feature() {
                 </div>
               </div>
             </div>
-            <div className="col-7 col-sm-6 col-lg-3">
+            <div className="col-8 col-sm-6 col-lg-3">
               <div className="feature_box mt-4 mt-sm-0">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
                     <img src={headphone} alt="headphone" />
                   </div>
-                  <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2">
+                  <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2 text-center">
                     Online Support
                   </h3>
                   <p className="ff_MontserratReg fc_grey fs_sm pb-3 mb-3 text-center">
