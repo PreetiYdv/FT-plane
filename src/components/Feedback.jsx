@@ -17,17 +17,17 @@ function Feedback() {
         </h3>
         <div className="row">
           <div className="col-lg-7 mb-lg-0 mb-4">
-            <img src={map} alt="" className="w-100" />
+            <img src={map} alt="map" className="w-100" />
           </div>
           <div className="col-lg-5 d-flex flex-column align-items-center">
             <div className="feedback_box mw_500">
               <div className="d-flex pb-3">
-                <img src={men} alt="" className="pe-3" />
+                <img src={men} alt="men-profile-img" className="pe-3" />
                 <div>
                   <p className="mb-0 ff_MontserratBold fs_reg fc_darkBlue">
                     Jaylon Vaccaro
                   </p>
-                  <img src={stars} alt="" />
+                  <img src={stars} alt="stars" />
                 </div>
               </div>
               <p className="ff_MontserratMediumItalic fs_md fc_coalBlack">
@@ -38,10 +38,10 @@ function Feedback() {
             </div>
             <div className="d-flex justify-content-center gap-3 align-items-center pt-3 mt-3">
               <div className="memories_slider">
-                <img src={prev_arrow} alt="" />
+                <img src={prev_arrow} alt="prev_arrow" />
               </div>
               <div className="memories_slider">
-                <img src={next_arrow} alt="" />
+                <img src={next_arrow} alt="next_arrow" />
               </div>
             </div>
           </div>

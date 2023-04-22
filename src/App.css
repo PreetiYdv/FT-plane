@@ -8,12 +8,13 @@
   box-sizing: border-box;
 }
 
+/* header bg */
 .bg_image {
   background: url(./assets/images/png/bg_image.png) no-repeat;
   background-size: cover;
 }
 
-
+/* Nav bar */
 nav ul li a:hover {
   color: #313EF7;
 }
@@ -63,11 +64,12 @@ nav ul li a:hover::after {
   z-index: 50;
 }
 
-span {
+.nav_btn {
   display: none;
   font-size: 30px;
 }
 
+/* aeroplane shadow */
 .shadow {
   background: radial-gradient(50.03% 49.91% at 50.09% 48.9%, #000000 0%, #FFFFFF 100%);
   background-blend-mode: multiply;
@@ -263,6 +265,9 @@ span {
   padding-bottom: 40px;
   width: 282px;
 }
+.travelers_box:hover {
+  box-shadow: 10px 100px 100px 20px rgba(1, 23, 54, 0.05);
+}
 
 .profile_img {
   width: 80px;
@@ -281,9 +286,17 @@ span {
   max-width: 500px;
 }
 
+/* memories */
+
 .memories_img {
   outline: 20px solid rgba(255, 255, 255, 0.3);
   border-radius: 200px;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.memories_img:hover {
+  transform: scale(1.05);
 }
 
 .memories_slider {
@@ -306,12 +319,15 @@ span {
   fill: white;
 }
 
+/* subscribe */
 .mw_534 {
   max-width: 534px;
 }
-.fs_14{
+
+.fs_14 {
   font-size: 14px;
 }
+
 #email {
   width: 493px;
   padding: 20px 23px;
@@ -339,6 +355,7 @@ span {
   border: none;
 }
 
+/* footer */
 .footer_bg {
   background: url(./assets/images/png/footer_bg.png) no-repeat;
   background-size: cover;
@@ -355,24 +372,25 @@ span {
   height: 42px;
 }
 
-.footer_icon:hover{
+.footer_icon:hover {
   transform: scale(1.09);
 }
 
-footer p a:hover{
+footer p a:hover {
   color: #E5E7EB;
   transform: scale(1.1);
 }
-.copyright_border{
+
+.copyright_border {
   border-top: 3px solid rgba(255, 255, 255, 0.1);
   padding-top: 40px;
-} 
+}
 
-.mw_300{
+.mw_300 {
   max-width: 300px;
 }
 
-
+/* Media queries */
 
 /* custom container media query */
 @media (min-width:1200px) and (max-width:1440px) {

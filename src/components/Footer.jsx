@@ -7,9 +7,9 @@ function Footer() {
       <footer className="container myContainer">
         <div className="row py-5">
           <div className="col-12 col-lg-4">
-            <div>
+            <a href="#">
               <img src={logo} alt="" />
-            </div>
+            </a>
             <p className="pt-4 fs_sm fc_footer ff_MontserratReg mw_300">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form

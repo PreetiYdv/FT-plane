@@ -4,6 +4,9 @@ import arrow from "../assets/images/svg/arrow.svg";
 import location_icon from "../assets/images/svg/location.svg";
 import profile from "../assets/images/svg/profile-2user.svg";
 import calendar from "../assets/images/svg/calendar-2.svg";
+import discount from "../assets/images/svg/discount.svg";
+import lock from "../assets/images/png/lock.png";
+import headphone from "../assets/images/svg/headphone.svg";
 
 function Feature() {
   return (
@@ -43,7 +46,7 @@ function Feature() {
               <div className="col-8 col-sm-6 col-lg-3 pt-sm-0 pt-3 d-flex">
                 <div className="d-flex align-items-center justify-content-start gap-2">
                   <div className="circle rounded-pill">
-                    <img src={profile} alt="" />
+                    <img src={profile} alt="profile" />
                   </div>
                   <div>
                     <p className="mb-0 ff_MontserratSemiBold fs_md fc_black">
@@ -73,7 +76,7 @@ function Feature() {
               <div className="col-8 col-sm-6 col-lg-3 pt-lg-0 pt-3 d-flex">
                 <div className="d-flex align-items-center justify-content-start gap-2">
                   <div className="circle rounded-pill">
-                    <img src={calendar} alt="" />
+                    <img src={calendar} alt="calendar" />
                   </div>
                   <div>
                     <p className="mb-0 ff_MontserratSemiBold fs_md fc_black">
@@ -101,7 +104,7 @@ function Feature() {
               <div className="feature_box mt-4">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
-                    <img src={guide} alt="" />
+                    <img src={guide} alt="guide" />
                   </div>
                   <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2 text-center">
                     Best Guide
@@ -111,7 +114,7 @@ function Feature() {
                     consequat ex, quis finibus magna.
                   </p>
                   <div role="button" className="arrow rounded-pill">
-                    <img src={arrow} alt="" />
+                    <img src={arrow} alt="arrow" />
                   </div>
                 </div>
               </div>
@@ -120,7 +123,7 @@ function Feature() {
               <div className="feature_box mt-4 mt-sm-0">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
-                    <img src={guide} alt="" />
+                    <img src={discount} alt="discount" />
                   </div>
                   <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2">
                     More Discount
@@ -130,7 +133,7 @@ function Feature() {
                     consequat ex, quis finibus magna.
                   </p>
                   <div role="button" className="arrow rounded-pill">
-                    <img src={arrow} alt="" />
+                    <img src={arrow} alt="arrow" />
                   </div>
                 </div>
               </div>
@@ -139,7 +142,7 @@ function Feature() {
               <div className="feature_box mt-4">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
-                    <img src={guide} alt="" />
+                    <img src={lock} alt="lock" />
                   </div>
                   <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2">
                     Private
@@ -149,7 +152,7 @@ function Feature() {
                     consequat ex, quis finibus magna.
                   </p>
                   <div role="button" className="arrow rounded-pill">
-                    <img src={arrow} alt="" />
+                    <img src={arrow} alt="arrow" />
                   </div>
                 </div>
               </div>
@@ -158,7 +161,7 @@ function Feature() {
               <div className="feature_box mt-4 mt-sm-0">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
-                    <img src={guide} alt="" />
+                    <img src={headphone} alt="headphone" />
                   </div>
                   <h3 className="ff_MontserratExtraBold fs_lg fc_black mb-2">
                     Online Support
@@ -168,7 +171,7 @@ function Feature() {
                     consequat ex, quis finibus magna.
                   </p>
                   <div role="button" className="arrow rounded-pill">
-                    <img src={arrow} alt="" />
+                    <img src={arrow} alt="arrow" />
                   </div>
                 </div>
               </div>
