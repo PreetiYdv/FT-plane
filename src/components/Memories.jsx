@@ -12,16 +12,16 @@ function Memories() {
           Make memories with us
         </h2>
         <div className="row justify-content-center mb-1">
-          <div className="col-6 col-sm-4 col-md-3 pt-lg-5 pt-3">
+          <div className="col-6 col-sm-4 col-md-3 pt-lg-5 pt-3 px-4">
             <img src={memories_img1} alt="" className="memories_img w-100" />
           </div>
-          <div className="col-6 col-sm-4 col-md-3 pt-lg-5 mt-md-4 pt-sm-3">
+          <div className="col-6 col-sm-4 col-md-3 pt-lg-5 mt-md-4 pt-sm-3 px-4">
             <img src={memories_img2} alt="" className="memories_img w-100" />
           </div>
-          <div className="col-6 col-sm-4 col-md-3 pt-lg-5 pt-3">
+          <div className="col-6 col-sm-4 col-md-3 pt-lg-5 pt-3 px-4">
             <img src={memories_img3} alt="" className="memories_img w-100" />
           </div>
-          <div className="col-6 col-sm-4 col-md-3 pt-lg-5 mt-md-4 pt-sm-3">
+          <div className="col-6 col-sm-4 col-md-3 pt-lg-5 mt-md-4 pt-sm-3 px-4">
             <img src={memories_img4} alt="" className="memories_img w-100" />
           </div>
         </div>

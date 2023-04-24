@@ -8,8 +8,9 @@ function PlaneNavbar() {
 
   const shownavBar = () => {
     setToggle(!toggle);
-    document.body.classList.add("overflow-hidden");
+    document.body.classList.toggle("overflow-hidden");
   };
+
   return (
     <>
       <nav>
@@ -21,13 +22,14 @@ function PlaneNavbar() {
             <ul
               className={
                 toggle
-                  ? "showNav myNav"
-                  : "d-flex gap-5 mb-0 align-items-center myNav"
+                  ? "showNav px-0 myNav"
+                  : "d-flex gap-5 mb-0 px-0 align-items-center myNav"
               }
             >
               <li>
                 <a
-                  href=""
+                  onClick={shownavBar}
+                  href="#LetsFly"
                   className="ff_MontserratSemiBold fs_sm fc_white text-decoration-none"
                 >
                   All Flight
@@ -35,6 +37,7 @@ function PlaneNavbar() {
               </li>
               <li>
                 <a
+                  onClick={shownavBar}
                   href=""
                   className="ff_MontserratSemiBold fs_sm fc_white text-decoration-none"
                 >
@@ -43,6 +46,7 @@ function PlaneNavbar() {
               </li>
               <li>
                 <a
+                  onClick={shownavBar}
                   href=""
                   className="ff_MontserratSemiBold fs_sm fc_white text-decoration-none"
                 >
@@ -50,7 +54,7 @@ function PlaneNavbar() {
                 </a>
               </li>
               <li>
-                <a
+                <a onClick={shownavBar}
                   href=""
                   className="ff_MontserratSemiBold fs_sm fc_white text-decoration-none"
                 >

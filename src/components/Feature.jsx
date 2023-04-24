@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "react-slick";
 import guide from "../assets/images/svg/guide.svg";
 import arrow from "../assets/images/svg/arrow.svg";
 import location_icon from "../assets/images/svg/location.svg";
@@ -9,6 +10,52 @@ import lock from "../assets/images/png/lock.png";
 import headphone from "../assets/images/svg/headphone.svg";
 
 function Feature() {
+  var settings = {
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    autoplay: true,
+    arrows: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 578,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       <div className="transform">
@@ -23,7 +70,7 @@ function Feature() {
               </p>
             </div>
             <div role="button" className="planeclass First">
-              <p className="mb-0 ff_MontserratReg fc_black fs_md">First</p>
+              <p className="mb-0 ff_MontserratMed fc_black fs_md">First</p>
             </div>
           </div>
           <div className="info_box">
@@ -90,7 +137,9 @@ function Feature() {
               </div>
             </div>
             <div className="d-flex align-items-center justify-content-center mt-4">
-              <button className="bookNowbtn">Book Now</button>
+              <button className="bookNowbtn ff_MontserratBold fs_md">
+                Book Now
+              </button>
             </div>
           </div>
         </div>
@@ -98,10 +147,9 @@ function Feature() {
           <h3 className=" text-center fc_black ff_MontserratBold fs_xxl ls_sm pb-5 text-capitalize">
             Our Features
           </h3>
-          <div className="row justify-content-center">
-            <div className="col-8 col-sm-6 col-lg-3">
-              {" "}
-              <div className="feature_box mt-4">
+          <Slider {...settings}>
+            <div className="d-flex justify-content-center">
+              <div className="feature_box  mx-3 mt-4">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
                     <img src={guide} alt="guide" />
@@ -119,8 +167,8 @@ function Feature() {
                 </div>
               </div>
             </div>
-            <div className="col-8 col-sm-6 col-lg-3">
-              <div className="feature_box mt-4 mt-sm-0">
+            <div className="d-flex justify-content-center">
+              <div className="feature_box  mx-3 mt-4 mt-sm-0">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
                     <img src={discount} alt="discount" />
@@ -138,8 +186,8 @@ function Feature() {
                 </div>
               </div>
             </div>
-            <div className="col-8 col-sm-6 col-lg-3">
-              <div className="feature_box mt-4">
+            <div className="d-flex justify-content-center">
+              <div className="feature_box  mx-3 mt-4">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
                     <img src={lock} alt="lock" />
@@ -157,8 +205,8 @@ function Feature() {
                 </div>
               </div>
             </div>
-            <div className="col-8 col-sm-6 col-lg-3">
-              <div className="feature_box mt-4 mt-sm-0">
+            <div className="d-flex justify-content-center">
+              <div className="feature_box  mx-3 mt-4 mt-sm-0">
                 <div className="d-flex flex-column align-items-center">
                   <div className="icon_circle rounded-pill mb-3">
                     <img src={headphone} alt="headphone" />
@@ -176,7 +224,7 @@ function Feature() {
                 </div>
               </div>
             </div>
-          </div>
+          </Slider>
         </div>
       </div>
     </>

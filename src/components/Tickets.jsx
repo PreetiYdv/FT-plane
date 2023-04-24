@@ -9,7 +9,7 @@ function Tickets() {
     <>
       <div className="container myContainer py-5">
         <div className="row">
-          <div className="col-lg-6 pe-5 d-flex flex-column align-items-lg-start align-items-center">
+          <div className="col-lg-6 pe-lg-5 d-flex flex-column align-items-lg-start align-items-center">
             <h2 className=" fc_white ff_MontserratBold fs_xxl pt-4 ls_sm text-capitalize text-center text-lg-start">
               Book Popular Flight Tickets
             </h2>
@@ -22,7 +22,7 @@ function Tickets() {
           <div className="col-lg-6">
             <div className="d-flex justify-content-center flex-column flex-md-row align-items-center">
               <img src={ticket} alt="ticket" className="w-100 pe-lg-4 mw_450" />
-              <div className="d-flex flex-md-column justify-content-between align-items-center gap-3 flex-row mt-5 mt-md-0">
+              <div className="d-flex flex-md-column justify-content-between align-items-center gap-3 flex-row mt-5 mt-md-0 ms-md-4 ps-md-2">
                 <div className="mt-md-5 pt-md-5 d-flex flex-md-column gap-1">
                   <div className="dots rounded-pill"></div>
                   <div className="dots rounded-pill"></div>
@@ -32,7 +32,7 @@ function Tickets() {
                   <div className="dots rounded-pill"></div>
                 </div>
                 <div className="border_right"></div>
-                <div className="mb-md-4 d-flex gap-3 flex-md-column">
+                <div className="mb-md-4 d-flex flex-md-column">
                   <div className="slider_arrow mb-1">
                     <img src={prev_arrow} alt="prev_arrow" />
                   </div>

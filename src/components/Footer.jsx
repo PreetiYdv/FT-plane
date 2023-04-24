@@ -60,14 +60,14 @@ function Footer() {
             </div>
           </div>
           <div className="col-12 col-lg-8 pt-5 pt-lg-0">
-            <div class="row justify-content-between">
-              <div class="col-6 col-md-4 col-xl-2">
-                <h2 class=" fc_white fs_lg mb-3 ff_MontserratExtraBold">
+            <div className="row justify-content-between">
+              <div className="col-6 col-md-4 col-xl-2">
+                <h2 className=" fc_white fs_lg mb-3 ff_MontserratExtraBold">
                   Address
                 </h2>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Integrations
@@ -75,7 +75,7 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Hello
@@ -83,7 +83,7 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Intercom
@@ -91,20 +91,20 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Customer
                   </a>
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-xl-2">
-                <h2 class=" fc_white fs_lg mb-3 ff_MontserratExtraBold">
+              <div className="col-6 col-md-4 col-xl-2">
+                <h2 className=" fc_white fs_lg mb-3 ff_MontserratExtraBold">
                   About
                 </h2>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Our Blog
@@ -112,7 +112,7 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Customers
@@ -120,7 +120,7 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Our Team
@@ -128,7 +128,7 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Careers
@@ -136,20 +136,20 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Integrations
                   </a>
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-xl-3">
-                <h2 class=" fc_white fs_lg mb-3 ff_MontserratExtraBold">
+              <div className="col-6 col-md-4 col-xl-3">
+                <h2 className=" fc_white fs_lg mb-3 ff_MontserratExtraBold">
                   Support
                 </h2>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Test Zoom
@@ -157,7 +157,7 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Account
@@ -165,7 +165,7 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Support Center
@@ -173,7 +173,7 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Live Training
@@ -181,7 +181,7 @@ function Footer() {
                 </p>
                 <p>
                   <a
-                    class=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
+                    className=" fc_footer fs_sm text-decoration-none ff_MontserratReg"
                     href="#"
                   >
                     Accessibility

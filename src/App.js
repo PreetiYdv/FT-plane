@@ -1,6 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Root.css";
 import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import PlaneNavbar from "./components/PlaneNavbar";
 import Header from "./components/Header";
 import Feature from "./components/Feature";
@@ -35,9 +37,8 @@ function App() {
         <Subscribe />
       </div>
       <div className="footer_bg py-5">
-       <Footer/>
+        <Footer />
       </div>
-
     </>
   );
 }
