@@ -21,13 +21,13 @@ function Tickets() {
             </p>
             <img src={air_delivery} alt="earth" className="w-100 mw_315" />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 mb-5">
             <div className="d-flex justify-content-center flex-column flex-md-row align-items-center">
               <div className="position-relative">
                 <img
                   src={ticket}
                   alt="ticket"
-                  className="w-100 pe-lg-4 mw_450 ticket_position d-sm-block d-none"
+                  className="w-lg-100 pe-lg-4 mw_450 ticket_position d-sm-block d-none"
                 />
                 <div className="ticket">
                   <div className="px_30 pt_30">

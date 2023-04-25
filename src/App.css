@@ -356,8 +356,8 @@ nav ul li a:hover::after {
 
 .ticket_position {
   position: absolute;
-  top: 89px;
-  left: 73px;
+  top: 32px;
+  left: 10px;
 }
 
 .ticket_bgColor {
@@ -435,7 +435,7 @@ nav ul li a:hover::after {
 }
 
 .mw_450 {
-  max-width: 450px;
+  max-width: 420px;
 }
 
 .dots {
@@ -627,6 +627,16 @@ footer p a:hover {
     top: 368px;
     background: #1A1B38;
   }
+
+  .ticket_position {
+    position: absolute;
+    top: 34px;
+    left: 35px;
+  }
+
+  .mw_450 {
+    max-width: 450px;
+  }
 }
 
 @media (max-width:992px) {
@@ -661,9 +671,14 @@ footer p a:hover {
   .transform {
     transform: translateY(-13%);
   }
-  .ticket_position{
+
+  .ticket_position {
     top: 53px;
     left: 58px;
+  }
+
+  .w-lg-100 {
+    width: 100%;
   }
 
 }
