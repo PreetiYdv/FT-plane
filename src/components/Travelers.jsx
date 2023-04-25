@@ -61,7 +61,7 @@ function Travelers() {
   return (
     <>
       <div className="container myContainer pt-5 mt-5">
-        <h2 className=" text-center ls_sm fc_darkBlue text-capitalize fs_xxl ff_MontserratBold mb-4">
+        <h2 className=" text-center ls_sm fc_darkBlue text-capitalize fs_xxl ff_MontserratBold mb-5">
           Best travelars of this month  
         </h2>
         <Slider {...settings}>

@@ -120,8 +120,10 @@ nav ul li a:hover::after {
   text-transform: uppercase;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2.75712px rgba(255, 255, 255, 0.08);
-  width: 100%;
+  /* width: 100%; */
+
 }
+
 
 /* box */
 .planeclass {
@@ -132,6 +134,13 @@ nav ul li a:hover::after {
   align-items: center;
   justify-content: center;
   transition: .2s ease-in;
+  border-bottom: 1px solid #F3F4F6;
+}
+
+.business {
+  background: #FFFFFF;
+  width: 173.33px;
+  height: 60px;
 }
 
 .planeclass:hover {
@@ -150,9 +159,36 @@ nav ul li a:hover::after {
   border-radius: 0px 30px 0px 0px;
 }
 
+/* 
 .border_lr {
   border-left: 1px solid #E5E7EB;
   border-right: 1px solid #E5E7EB;
+} */
+
+.custom-border {
+  position: relative;
+}
+
+.custom-border:after {
+  content: " ";
+  position: absolute;
+  border-right: 1px solid #E5E7EB;
+  top: 14px;
+  right: 0;
+  height: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.custom-border:before {
+  content: " ";
+  position: absolute;
+  border-left: 1px solid #E5E7EB;
+  top: 14px;
+  left: 0;
+  height: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .info_box {
@@ -181,6 +217,15 @@ nav ul li a:hover::after {
   padding: 14px 45px;
   border: none;
   color: #FFFFFF;
+  transition: .3s;
+  border: 1px solid #313EF7;
+}
+
+.bookNowbtn:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 14px rgba(8, 11, 59, 0.25);
+  border: 1px solid #313EF7;
+  color: #313EF7;
 }
 
 .bookNowbtn:focus {
@@ -303,9 +348,70 @@ nav ul li a:hover::after {
   max-width: 315px;
 }
 
+.eco_box {
+  background: rgba(49, 62, 247, 0.1);
+  border-radius: 49px;
+  padding: 8px 10px;
+}
+
+.ticket_position {
+  position: absolute;
+  top: 89px;
+  left: 73px;
+}
+
 .ticket_bgColor {
   background-color: #010223;
 }
+
+.line {
+  border-top: 1px dashed #868D96;
+  width: 95%;
+}
+
+.ticket {
+  background: #FFFFFF;
+  border-radius: 30px;
+  position: relative;
+  max-width: 390px;
+}
+
+.px_30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pt_30 {
+  padding-top: 30px;
+}
+
+.pb_30 {
+  padding-bottom: 30px;
+}
+
+.ticket::after {
+  content: "";
+  position: absolute;
+  width: 37.92px;
+  height: 35px;
+  left: -20px;
+  border-radius: 50%;
+  top: 344px;
+  background: #010223;
+}
+
+.ticket::before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 35px;
+  right: -1px;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+  top: 344px;
+  background: #1A1B38;
+}
+
 
 .slider_arrow {
   background: #1A1B39;
@@ -427,6 +533,10 @@ nav ul li a:hover::after {
   border-radius: 150px;
   outline: none;
   border: none;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 20px;
+  color: #B6BCC5;
 }
 
 #email::placeholder {
@@ -494,6 +604,29 @@ footer p a:hover {
   .min_vh100 {
     min-height: 100vh;
   }
+
+  .ticket::after {
+    content: "";
+    position: absolute;
+    width: 37.92px;
+    height: 35px;
+    left: -20px;
+    border-radius: 50%;
+    top: 368px;
+    background: #010223;
+  }
+
+  .ticket::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 35px;
+    right: -1px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    top: 368px;
+    background: #1A1B38;
+  }
 }
 
 @media (max-width:992px) {
@@ -528,6 +661,11 @@ footer p a:hover {
   .transform {
     transform: translateY(-13%);
   }
+  .ticket_position{
+    top: 53px;
+    left: 58px;
+  }
+
 }
 
 @media (max-width:576px) {
@@ -597,5 +735,32 @@ footer p a:hover {
     height: 0 !important;
     border-bottom: 2px dashed rgba(255, 255, 255, 0.2);
     width: 151px;
+  }
+
+  .ticket::after {
+    content: "";
+    position: absolute;
+    width: 37.92px;
+    height: 35px;
+    left: -20px;
+    border-radius: 50%;
+    top: 322px;
+    background: #010223;
+  }
+
+  .ticket::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 35px;
+    right: -1px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    top: 322px;
+    background: #1A1B38;
+  }
+
+  .ticket_position {
+    top: 23px;
   }
 }

@@ -4,9 +4,11 @@ import plane from "../assets/images/png/aer.png";
 function Header() {
   return (
     <>
-      <div className="container myContainer py-5 my-5">
+      <div className="container myContainer py-5 my-5 overflow-hidden">
         <div className="position-relative">
-          <h2 className=" fs_4xl ff_MontserratBlack text_formatting text-center">Aviation</h2>
+          <h2 className=" fs_4xl ff_MontserratBlack text_formatting text-center">
+            Aviation
+          </h2>
           <img src={plane} alt="plane" className="w-100 plane_animation" />
           <div className="shadow"></div>
           <div className="shadow2"></div>

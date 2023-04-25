@@ -63,6 +63,7 @@
     --fc-light: #A6A6B2;
     --fc-platinum: #979797;
     --fc-footer: #A7A7A7;
+    --fc-ticket:#9CA3AF;
 
     /* font family */
     --ff-MontserratReg: 'Montserrat Regular';
@@ -116,6 +117,10 @@
 
 .fc_coalBlack {
     color: var(--fc-coalBlack);
+}
+
+.fc_ticket {
+    color: var(--fc-ticket);
 }
 
 .fc_platinum {

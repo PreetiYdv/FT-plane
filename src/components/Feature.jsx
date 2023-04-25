@@ -64,7 +64,7 @@ function Feature() {
             <div role="button" className="planeclass Economy">
               <p className="mb-0 ff_MontserratBold fs_md fc_black">Economy</p>
             </div>
-            <div role="button" className="planeclass business">
+            <div role="button" className="planeclass custom-border business">
               <p className="mb-0 ff_MontserratSemiBold fs_md fc_black text-center">
                 Busniness
               </p>
