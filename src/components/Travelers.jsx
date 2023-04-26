@@ -62,12 +62,12 @@ function Travelers() {
     <>
       <div className="container myContainer pt-5 mt-5">
         <h2 className=" text-center ls_sm fc_darkBlue text-capitalize fs_xxl ff_MontserratBold mb-5">
-          Best travelars of this month  
+          Best travelars of this month
         </h2>
         <Slider {...settings}>
           <div className=" d-flex pb-5 justify-content-center">
-            <div className="travelers_box mx-3 d-flex flex-column justify-content-center align-items-center">
-              <img src={tower} alt="tower" className="w-100" />
+            <div className="travelers_box overflow-hidden mx-3 d-flex flex-column justify-content-center align-items-center">
+              <img src={tower} alt="tower" className="w-100 travelers_img" />
               <img
                 src={men_profile}
                 alt="men_profile"
@@ -82,8 +82,8 @@ function Travelers() {
             </div>
           </div>
           <div className="d-flex justify-content-center">
-            <div className="travelers_box mx-3 d-flex flex-column justify-content-center align-items-center">
-              <img src={city} alt="city" className="w-100" />
+            <div className="travelers_box overflow-hidden mx-3 d-flex flex-column justify-content-center align-items-center">
+              <img src={city} alt="city" className="w-100 travelers_img" />
               <img
                 src={girl_profile}
                 alt="men_profile"
@@ -98,8 +98,12 @@ function Travelers() {
             </div>
           </div>
           <div className=" d-flex justify-content-center">
-            <div className="travelers_box mx-3 d-flex flex-column justify-content-center align-items-center">
-              <img src={building} alt="building" className="w-100" />
+            <div className="travelers_box overflow-hidden mx-3 d-flex flex-column justify-content-center align-items-center">
+              <img
+                src={building}
+                alt="building"
+                className="w-100 travelers_img"
+              />
               <img src={girl_2} alt="men_profile" className="profile_img" />
               <h3 className="ff_MontserratBold fs_lg fc_darkBlue text-center mb-1">
                 Marcus Dias
@@ -110,8 +114,12 @@ function Travelers() {
             </div>
           </div>
           <div className=" d-flex justify-content-center">
-            <div className="travelers_box mx-3 d-flex flex-column justify-content-center align-items-center">
-              <img src={burj_khalifa} alt="burj_khalifa" className="w-100" />
+            <div className="travelers_box overflow-hidden mx-3 d-flex flex-column justify-content-center align-items-center">
+              <img
+                src={burj_khalifa}
+                alt="burj_khalifa"
+                className="w-100 travelers_img"
+              />
               <img src={girl3} alt="men_profile" className="profile_img" />
               <h3 className="ff_MontserratBold fs_lg fc_darkBlue text-center mb-1">
                 Zaire Vetrovs

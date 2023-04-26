@@ -283,6 +283,11 @@ nav ul li a:hover::after {
   box-shadow: 0px 100px 200px rgba(1, 23, 54, 0.05);
   border-radius: 185px;
   padding: 28px 21px 42px 21px;
+  transition: all .3s linear;
+}
+
+.feature_box:hover {
+  transform: translateY(-10px);
 }
 
 .icon_circle {
@@ -330,7 +335,7 @@ nav ul li a:hover::after {
   position: absolute;
   height: 51%;
   top: 17px;
-  left: 11px;
+  left: 10.5px;
   z-index: -1;
   border-left: 2px dashed #E5E7EB;
 }
@@ -462,12 +467,22 @@ nav ul li a:hover::after {
   border-radius: 213px;
   padding-bottom: 40px;
   width: 282px;
+  transition: all .3s linear;
+}
+
+.travelers_img {
+  transition: all .3s linear;
+}
+
+.travelers_box:hover .travelers_img {
+  transform: scale(1.1);
 }
 
 .profile_img {
   width: 80px;
   height: 80px;
   transform: translateY(-25%);
+  transition: all .3s linear;
 }
 
 .feedback_box {
@@ -489,11 +504,12 @@ nav ul li a:hover::after {
   border-radius: 200px;
   cursor: pointer;
   transition: .5s ease;
-  outline-offset: -11px;
+  outline-offset: -14px;
+  transition: all .3s ease-in-out;
 }
 
 .memories_img:hover {
-  transform: scale(1.05);
+  transform: translateY(-10px);
 }
 
 .memories_slider {
@@ -554,6 +570,15 @@ nav ul li a:hover::after {
   right: 3%;
   top: 11px;
   border: none;
+  transition: all .3s ease-in-out;
+  border: 1px solid #313EF7;
+}
+
+.subscribe_btn:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 14px rgba(8, 11, 59, 0.25);
+  border: 1px solid #313EF7;
+  color: #313EF7;
 }
 
 /* footer */

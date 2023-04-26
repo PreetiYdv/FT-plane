@@ -1,6 +1,6 @@
-import React from 'react'
-import memories_img1 from "../assets/images/png/memories_img1.png"
-import memories_img2 from "../assets/images/png/memories_img2.png"
+import React from "react";
+import memories_img1 from "../assets/images/png/memories_img1.png";
+import memories_img2 from "../assets/images/png/memories_img2.png";
 import memories_img3 from "../assets/images/png/memories_img3.png";
 import memories_img4 from "../assets/images/png/memories_img4.png";
 
@@ -13,7 +13,9 @@ function Memories() {
         </h2>
         <div className="row justify-content-center mb-1">
           <div className="col-6 col-sm-4 col-md-3 pt-lg-5 pt-3 px-4">
-            <img src={memories_img1} alt="" className="memories_img w-100" />
+            <div className="memories_img overflow-hidden">
+              <img src={memories_img1} alt="" className="scale1 w-100" />
+            </div>
           </div>
           <div className="col-6 col-sm-4 col-md-3 pt-lg-5 mt-md-4 pt-sm-3 px-4">
             <img src={memories_img2} alt="" className="memories_img w-100" />
@@ -30,4 +32,4 @@ function Memories() {
   );
 }
 
-export default Memories
+export default Memories;
